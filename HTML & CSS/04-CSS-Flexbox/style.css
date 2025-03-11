@@ -195,7 +195,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -264,10 +264,10 @@ nav p {
   font-size: 18px;
 } */
 
-/* FLOATS */
+/* FLOATS 
 
 .author {
-  /* padding-left: 80px; */
+  padding-left: 80px;
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -286,7 +286,7 @@ nav {
   float: right;
 }
 
-/* CLEARFIX */
+/* CLEARFIX 
 .clearfix::after {
   content: "";
   display: table;
@@ -305,4 +305,14 @@ aside {
 
 footer {
   clear: both;
+}
+
+*/
+
+/* FLEXBOX */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
