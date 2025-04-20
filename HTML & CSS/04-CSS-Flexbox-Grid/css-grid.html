@@ -41,12 +41,19 @@
 
         /* CSS GRID */
         display: grid;
-        grid-template-columns: 200px 200px 100px 100px;
-        grid-template-rows: 250px 200px;
+        /* grid-template-columns: 200px 200px 100px 100px; */
+        /* grid-template-columns: 200px 200px 1fr 1fr; */
+        /* grid-template-rows: 250px 200px; */
+
+        /* grid-template-areas: */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        grid-template-columns: 1fr 1fr 1fr auto; /* auto: only takes the space it needs */
 
         /* gap: 30px; */
-        column-gap: 30px;
-        row-gap: 60px;
+        column-gap: 10px;
+        row-gap: 40px;
       }
 
       .container--2 {
@@ -56,8 +63,8 @@
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
-        height: 600px;
+        /* width: 1000px; */
+        /* height: 600px; */
 
         /* CSS GRID */
       }
