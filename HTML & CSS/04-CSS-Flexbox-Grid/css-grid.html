@@ -38,6 +38,7 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
+        /* height: 500px; */
 
         /* CSS GRID */
         display: grid;
@@ -49,11 +50,16 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
 
-        grid-template-columns: 1fr 1fr 1fr auto; /* auto: only takes the space it needs */
+        /* grid-template-columns: 1fr 1fr 1fr auto; auto: only takes the space it needs */
 
         /* gap: 30px; */
         column-gap: 10px;
         row-gap: 40px;
+      }
+
+      .el--8 {
+        grid-column: 2 / 3; /* 2nd column, 3rd column */
+        grid-row: 1 / 2; /* 1st row, 2nd row */
       }
 
       .container--2 {
