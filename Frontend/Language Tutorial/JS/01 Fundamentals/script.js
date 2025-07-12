@@ -31,3 +31,8 @@ if (hasDriversLicense && hasGoodVision) {
 } else {
   console.log("I cannot drive or have poor vision.");
 }
+
+
+// type conversion
+const inputYear = "1991";
+console.log(Number(inputYear) + 18); // Converts string to number
