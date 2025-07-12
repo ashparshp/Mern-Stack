@@ -73,3 +73,10 @@ console.log(null === undefined); // false (strict equality, different types)
 const userAge = prompt("What is your age?");
 console.log(`You are ${userAge} years old.`);
 cconsole.log(`Type of userAge: ${typeof userAge}`); // userAge is a string by default
+
+// Logic operators
+const largeNumber = true;
+const smallNumber = false;
+console.log(largeNumber && smallNumber); // false (AND operator)
+console.log(largeNumber || smallNumber); // true (OR operator)
+console.log(!largeNumber); // false (NOT operator)
