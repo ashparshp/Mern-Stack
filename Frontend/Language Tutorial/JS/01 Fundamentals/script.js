@@ -23,3 +23,11 @@ const hasDriversLicense = true;
 if (hasDriversLicense) {
   console.log("I can drive!");
 }
+
+// if statement with else
+const hasGoodVision = true;
+if (hasDriversLicense && hasGoodVision) {
+  console.log("I can drive and have good vision!");
+} else {
+  console.log("I cannot drive or have poor vision.");
+}
