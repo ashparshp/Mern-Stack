@@ -3,9 +3,18 @@ if (JS === "Amazing") alert("JS is FUN!");
 
 console.log(40 + 8 + 23 - 10);
 
+let TS; // TS is declared but not initialized Typeof TS will be undefined
+
 const age = 23;
+
 // age = 24; // This will throw an error because 'age' is a constant
 
 // const birthYear; // This will throw an error because 'birthYear' is not initialized
 
 // const age = 24; // This will throw an error because 'age' is already declared
+
+// Template Literals
+const name = "Ashparsh";
+const greeting = `Hello, my name is ${name}.
+I am learning JavaScript.`;
+console.log(greeting);
