@@ -17,3 +17,9 @@ const age = 23;
 const firstName = "Ashparsh";
 const greeting = `Hello, my name is ${firstName}. I am learning JavaScript.`;
 console.log(greeting);
+
+// if statement
+const hasDriversLicense = true;
+if (hasDriversLicense) {
+  console.log("I can drive!");
+}
