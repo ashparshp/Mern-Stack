@@ -46,3 +46,17 @@ console.log("23" - "10"); // Coerces strings to numbers and performs subtraction
 console.log("23" + "10"); // Concatenates strings
 console.log("23" * "2"); // Coerces strings to numbers and performs multiplication
 console.log("23" / "2"); // Coerces strings to numbers and performs division
+
+// Falsy values in JavaScript
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean(null)); // false
+console.log(Boolean("")); // false (empty string)
+console.log(Boolean(NaN)); // false (Not a Number)
+
+// Truthy values in JavaScript
+console.log(Boolean(1)); // true
+console.log(Boolean("Ashparsh")); // true (non-empty string)
+console.log(Boolean({})); // true (empty object)
+console.log(Boolean([])); // true (empty array)
+console.log(Boolean(function() {})); // true (function is truthy)
