@@ -14,7 +14,6 @@ const age = 23;
 // const age = 24; // This will throw an error because 'age' is already declared
 
 // Template Literals
-const name = "Ashparsh";
-const greeting = `Hello, my name is ${name}.
-I am learning JavaScript.`;
+const firstName = "Ashparsh";
+const greeting = `Hello, my name is ${firstName}. I am learning JavaScript.`;
 console.log(greeting);
