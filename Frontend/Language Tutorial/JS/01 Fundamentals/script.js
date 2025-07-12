@@ -7,3 +7,5 @@ const age = 23;
 // age = 24; // This will throw an error because 'age' is a constant
 
 // const birthYear; // This will throw an error because 'birthYear' is not initialized
+
+// const age = 24; // This will throw an error because 'age' is already declared
