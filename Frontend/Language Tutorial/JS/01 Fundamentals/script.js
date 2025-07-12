@@ -72,3 +72,4 @@ console.log(null === undefined); // false (strict equality, different types)
 // prompt for user input
 const userAge = prompt("What is your age?");
 console.log(`You are ${userAge} years old.`);
+cconsole.log(`Type of userAge: ${typeof userAge}`); // userAge is a string by default
