@@ -60,3 +60,15 @@ console.log(Boolean("Ashparsh")); // true (non-empty string)
 console.log(Boolean({})); // true (empty object)
 console.log(Boolean([])); // true (empty array)
 console.log(Boolean(function() {})); // true (function is truthy)
+
+// == operator vs === operator
+console.log(23 == "23"); // true (loose equality, type coercion occurs)
+console.log(23 === "23"); // false (strict equality, no type coercion)
+console.log(0 == false); // true (loose equality, 0 is falsy)
+console.log(0 === false); // false (strict equality, different types)
+console.log(null == undefined); // true (loose equality, both are considered equal)
+console.log(null === undefined); // false (strict equality, different types)
+
+// prompt for user input
+const userAge = prompt("What is your age?");
+console.log(`You are ${userAge} years old.`);
